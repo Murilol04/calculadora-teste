@@ -300,7 +300,7 @@ function calcularTaxaProgramada() {
         Antecipacao = ravResultante;
 
 
-        taxa[l] = ((100 - Mdr) / (l + 1)) * ((Antecipacao / 100) * contadorCalculadora) + Mdr;
+       taxa[l] = ((100 - Mdr) / (l + 1)) * ((Antecipacao / 100) * contadorCalculadora) + ((100 - Mdr) / (l + 1)) * ((taxaAntecipacaoPrimeiraParcela / 100) ) + Mdr;
 
 
     }
