@@ -279,7 +279,7 @@ function calcularTaxaProgramada() {
     var contadorCalculadora = 0;
 
     for (var l = 0; l < 18; l++) {
-        contadorCalculadora += 1 * l + 1;
+        contadorCalculadora += 1 * l;
         if (l == 0) {
             Mdr = taxaMdrCreditoAvista;
 
